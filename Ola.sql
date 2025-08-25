@@ -23,7 +23,7 @@ CREATE TABLE Bookings (
     Vehicle_Images TEXT
 );
 
-drop table Bookings;
+
 
 LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Bookings.csv'
 INTO TABLE Bookings
@@ -57,7 +57,7 @@ SET
     Vehicle_Images = @Vehicle_Images;
 
 
-select * from number_of_cancelled_rides;
+
 
 #1. Retrieve all successful bookings:
 create view Successful_Bookings as
